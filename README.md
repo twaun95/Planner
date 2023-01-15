@@ -4,6 +4,7 @@
 
 # 기술
 - Clean Architecture + MVVM + MultiModule
+- KTS 빌드 구성
 - Hilt
 - DataBinding
 - LiveData
