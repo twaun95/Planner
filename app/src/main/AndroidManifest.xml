@@ -4,6 +4,7 @@
     package="com.twaun95.gymplanner">
 
     <application
+        android:name=".GymPlannerApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

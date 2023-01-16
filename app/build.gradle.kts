@@ -48,4 +48,8 @@ dependencies {
     testImplementation(UnitTest.JUNIT)
     androidTestImplementation(AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(AndroidTest.ESPRESSO_CORE)
+
+    implementation(AndroidX.ACTIVITY)
+    implementation(AndroidX.APP_COMPAT)
+
 }
