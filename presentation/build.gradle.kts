@@ -1,5 +1,7 @@
+import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
+
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     id("dagger.hilt.android.plugin")
     kotlin("android")
     kotlin("kapt")
@@ -9,13 +11,11 @@ android {
     compileSdk = Configs.COMPILE_SDK
 
     defaultConfig {
-        applicationId = "com.twaun95.gymplanner"
         minSdk = Configs.MIN_SDK
         targetSdk = Configs.TARGET_SDK
-        versionCode = Configs.VERSION_CODE
-        versionName = Configs.VERSION_NAME
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -40,14 +40,22 @@ android {
 }
 
 dependencies {
-    implementation(project(":presentation"))
+    implementation(AndroidX.ACTIVITY)
+    implementation(AndroidX.FRAGMENT)
+    implementation(AndroidX.APP_COMPAT)
+    implementation(AndroidX.CORE_KTX)
+    implementation(Google.MATERIAL)
+    implementation(AndroidX.CONSTRAINT_LAYOUT)
+    implementation(AndroidX.VIEW_MODEL)
+    implementation(AndroidX.SWIPE_LAYOUT)
 
     implementation(Google.HILT_ANDROID)
     kapt(Google.HILT_ANDROID_COMPILER)
 
-    implementation(Libraries.TIMBER)
-
     testImplementation(UnitTest.JUNIT)
     androidTestImplementation(AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(AndroidTest.ESPRESSO_CORE)
+
+    implementation(Libraries.TIMBER)
+    implementation(Libraries.LOTTIE)
 }
