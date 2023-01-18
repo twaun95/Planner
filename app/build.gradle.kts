@@ -42,6 +42,8 @@ android {
 dependencies {
     implementation(project(":presentation"))
 
+    implementation(Google.MATERIAL)
+
     implementation(Google.HILT_ANDROID)
     kapt(Google.HILT_ANDROID_COMPILER)
 
