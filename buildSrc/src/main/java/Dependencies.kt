@@ -4,7 +4,7 @@ object Kotlin {
     const val COROUTINES_ANDROID = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.KOTLIN_COROUTINE}"
 }
 
-
+// JetPack
 object AndroidX {
     const val APP_COMPAT                  = "androidx.appcompat:appcompat:${Versions.APP_COMPAT}"
     const val CORE_KTX                    = "androidx.core:core-ktx:${Versions.CORE_KTX}"
@@ -14,6 +14,8 @@ object AndroidX {
     const val VIEW_MODEL                  = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.LIFECYCLE}"
     const val FRAGMENT                    = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT}"
     const val SWIPE_LAYOUT                = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.SWIPE_LAYOUT}"
+    const val NAVIGATION                  = "androidx.navigation:navigation-fragment-ktx:${Versions.NAVIGATION}"
+    const val NAVIGATION_UI               = "androidx.navigation:navigation-ui-ktx:${Versions.NAVIGATION}"
 }
 
 object Google {

@@ -5,7 +5,7 @@ object Versions {
     const val KOTLIN_VERSION = "1.6.10"
     const val KOTLIN_COROUTINE = "1.5.1"
 
-    // Android JetPack
+    // JetPack
     const val ACTIVITY = "1.4.0"
     const val FRAGMENT = "1.4.1"
     const val APP_COMPAT = "1.4.1"
@@ -13,7 +13,7 @@ object Versions {
     const val LIFECYCLE = "2.4.1"
     const val CORE_KTX = "1.7.0"
 
-    // AndroidX
+    const val NAVIGATION = "2.5.1"
     const val SWIPE_LAYOUT = "1.1.0"
 
 
