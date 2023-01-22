@@ -8,4 +8,16 @@
         android:id="@+id/noteFragment"
         android:icon="@drawable/menu_test"
         android:title="@string/menu_2"/>
+    <item
+        android:id="@+id/recordFragment"
+        android:icon="@drawable/menu_test"
+        android:title="@string/menu_3"/>
+    <item
+        android:id="@+id/fragment4"
+        android:icon="@drawable/menu_test"
+        android:title="@string/menu_4"/>
+    <item
+        android:id="@+id/fragment5"
+        android:icon="@drawable/menu_test"
+        android:title="@string/menu_5"/>
 </menu>

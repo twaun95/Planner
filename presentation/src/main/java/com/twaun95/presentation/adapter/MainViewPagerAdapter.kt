@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.twaun95.presentation.ui.calendar.CalendarFragment
 import com.twaun95.presentation.ui.note.NoteFragment
+import com.twaun95.presentation.ui.record.RecordFragment
 
 class MainViewPagerAdapter(fragment: FragmentActivity) : FragmentStateAdapter(fragment) {
 
@@ -13,13 +14,16 @@ class MainViewPagerAdapter(fragment: FragmentActivity) : FragmentStateAdapter(fr
     override fun createFragment(position: Int): Fragment {
         return when (position) {
             0 -> CalendarFragment.newInstance()
-            else -> NoteFragment.newInstance()
+            1 -> NoteFragment.newInstance()
+            2 -> RecordFragment.newInstance()
+            else -> CalendarFragment.newInstance()
         }
     }
 
     companion object {
-        const val ITEM_COUNT = 2
+        const val ITEM_COUNT = 3
         const val PAGE_CALENDAR = 0
         const val PAGE_NOTE = 1
+        const val PAGE_RECORD = 2
     }
 }

@@ -28,6 +28,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 when(page.itemId) {
                     R.id.calendarFragment -> binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_CALENDAR, false)
                     R.id.noteFragment -> binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_NOTE, false)
+                    R.id.recordFragment -> binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_RECORD, false)
                     else -> {}
                 }
                 true
