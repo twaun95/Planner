@@ -24,19 +24,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private fun initBottomNavigation() {
         binding.bottomNavigation.apply {
-            itemIconTintList = null
             setOnItemSelectedListener { page ->
                 when(page.itemId) {
-                    R.id.item_calendar -> {
-                        binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_CALENDAR, false)
-                        true
-                    }
-                    R.id.item_note -> {
-                        binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_NOTE, false)
-                        true
-                    }
-                    else -> { false }
+                    R.id.calendarFragment -> binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_CALENDAR, false)
+                    R.id.noteFragment -> binding.viewPager.setCurrentItem(MainViewPagerAdapter.PAGE_NOTE, false)
+                    else -> {}
                 }
+                true
             }
         }
     }

@@ -45,10 +45,13 @@ dependencies {
     implementation(AndroidX.APP_COMPAT)
     implementation(AndroidX.CORE_KTX)
     implementation(Google.MATERIAL)
+
     implementation(AndroidX.CONSTRAINT_LAYOUT)
     implementation(AndroidX.VIEW_MODEL)
 
     implementation(AndroidX.NAVIGATION)
+    implementation(AndroidX.NAVIGATION_UI)
+
     implementation(AndroidX.SWIPE_LAYOUT)
 
     implementation(Google.HILT_ANDROID)

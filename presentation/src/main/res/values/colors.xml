@@ -3,6 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="primary">#FF000000</color>
+    <color name="primary">#DC8A8A</color>
+
+    <color name="menu_color_on">#000000</color>
+    <color name="menu_color_off">#BBB9B9</color>
 
 </resources>
