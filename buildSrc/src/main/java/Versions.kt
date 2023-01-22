@@ -6,9 +6,9 @@ object Versions {
     const val KOTLIN_COROUTINE = "1.5.1"
 
     // JetPack
-    const val ACTIVITY = "1.4.0"
-    const val FRAGMENT = "1.4.1"
-    const val APP_COMPAT = "1.4.1"
+    const val ACTIVITY = "1.5.0"
+    const val FRAGMENT = "1.5.0"
+    const val APP_COMPAT = "1.5.0"
     const val CONSTRAINT_LAYOUT = "2.1.3"
     const val LIFECYCLE = "2.4.1"
     const val CORE_KTX = "1.7.0"
@@ -19,7 +19,7 @@ object Versions {
 
     // Google
     const val HILT = "2.40.5"
-    const val MATERIAL = "1.5.0"
+    const val MATERIAL = "1.6.1"
 
     // UnitTest
     const val JUNIT = "4.13.2"
@@ -33,4 +33,5 @@ object Versions {
     const val OKHTTP = "4.3.1"
     const val TIMBER = "5.0.1"
     const val LOTTIE = "5.2.0"
+    const val LEAK_CANARY = "2.9.1"
 }

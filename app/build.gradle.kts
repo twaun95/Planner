@@ -48,6 +48,7 @@ dependencies {
     kapt(Google.HILT_ANDROID_COMPILER)
 
     implementation(Libraries.TIMBER)
+    debugImplementation(Libraries.LEAK_CANARY)
 
     testImplementation(UnitTest.JUNIT)
     androidTestImplementation(AndroidTest.ANDROID_JUNIT)
