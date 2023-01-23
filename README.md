@@ -12,4 +12,6 @@
 - Flow
 - FireBase
 - 써드파티
-
+- 달력
+- adMob
+- Flavor
