@@ -10,4 +10,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class NoteDetailFragment : BaseFragment<FragmentNoteBinding, NoteDetailFragmentViewModel>(R.layout.fragment_note_detail){
     override val fragmentVM: NoteDetailFragmentViewModel by viewModels<NoteDetailFragmentViewModel>()
 
+    companion object {
+        fun newInstance() : NoteDetailFragment = NoteDetailFragment()
+    }
 }
