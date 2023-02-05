@@ -12,16 +12,19 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/primary">
+        android:layout_height="70dp"
+        android:paddingBottom="1dp"
+        android:background="#AEAEAE">
 
 
         <TextView
             android:id="@+id/button_detail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#C18D50"
-            android:gravity="center"
+            android:background="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            tools:text="데드리프트"
             android:text="@{data.title}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

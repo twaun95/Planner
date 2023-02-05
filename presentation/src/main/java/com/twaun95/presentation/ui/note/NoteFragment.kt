@@ -36,7 +36,7 @@ class NoteFragment : BaseFragment<FragmentNoteBinding, NoteFragmentViewModel>(R.
         }
 
         binding.buttonAddTest.setOnClickListener {
-            noteAdapter.submitList(listOf(NoteAdapter.NoteEntity("a"), NoteAdapter.NoteEntity("b"), NoteAdapter.NoteEntity("c")))
+            noteAdapter.submitList(listOf(NoteAdapter.NoteEntity("벤치프레스"), NoteAdapter.NoteEntity("데드리프트"), NoteAdapter.NoteEntity("스쿼트")))
         }
     }
 
