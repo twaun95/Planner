@@ -6,14 +6,21 @@
 - Clean Architecture + MVVM + MultiModule
 - KTS 빌드 구성
 - Hilt
-- DataBinding
-- LiveData
-- Coroutine
-- Flow
+- JetPack
+  - DataBinding
+  - LiveData
+  - Navigation
+  - paging
+  - room
+  - viewPager2
+- Coroutine, Flow
 - FireBase
-- 달력
+  - cloud storage
+  - crashlytics
+  - app distribution
+  
 - adMob
-- Flavor
+- flavor
 
 # 구성
 - 달력
