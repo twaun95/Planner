@@ -24,6 +24,12 @@ class NoteFragment : BaseFragment<FragmentNoteBinding, NoteFragmentViewModel>(R.
         setRecyclerView()
     }
 
+    override fun onStart() {
+        super.onStart()
+        noteAdapter.submitList(listOf(NoteAdapter.NoteEntity("벤치프레스"), NoteAdapter.NoteEntity("데드리프트"), NoteAdapter.NoteEntity("스쿼트")))
+
+    }
+
     override fun setEvent() {
         super.setEvent()
 
