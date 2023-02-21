@@ -63,4 +63,5 @@ dependencies {
 
     implementation(Libraries.TIMBER)
     implementation(Libraries.LOTTIE)
+
 }

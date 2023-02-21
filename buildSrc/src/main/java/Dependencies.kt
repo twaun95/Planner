@@ -43,4 +43,5 @@ object Libraries {
     const val TIMBER                      = "com.jakewharton.timber:timber:${Versions.TIMBER}"
     const val LOTTIE                      = "com.airbnb.android:lottie:${Versions.LOTTIE}"
     const val LEAK_CANARY                 = "com.squareup.leakcanary:leakcanary-android:${Versions.LEAK_CANARY}"
+
 }
